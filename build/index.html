@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casey Petrosky</title>
+  <link href="build.css" rel="stylesheet">
+  
+</head>
+
+<body class="text-gray-600 paralax">
+  <div class="grid md:grid-cols-5 w-full h-full" <!-- content wrapper-->
+    <div class="md:col-span-1 md:flex md:justify-end"><!-- navbar-->
+      <nav class="text-right">
+        <div class="flex justify-between items-center">
+          <h1 class="font-bold uppercase p-4 border-b border-gray-100 listbackground">
+            <a href="index.html" class="listmain">Casey Petrosky</a>
+          </h1>
+
+          <div class="px-4 cursor-pointer md:hidden " id="burger">
+            <svg class="w-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </div>
+        </div>
+
+        <ul class="text-sm pt-6 hidden md:block listbackground" id="menu">
+
+          <li class="listmain ">
+            <a href="index.html" class="listbox">
+              <span>Home</span>
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
+            </a>
+          </li>
+
+          <li class="listmain">
+            <a href="about.html" class="listbox">
+              <span>About</span>
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </a>
+          </li>
+
+          <li class="listmain">
+            <a href="https://www.youtube.com/channel/UCW9NMWxAB_puzdWFlYgWBaA" class="listbox">
+              <span>Youtube</span>
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+              </svg>
+              </a>
+          </li>
+
+          <li class="listmain">
+            <a href="https://twitter.com/thecaspet" class="listbox">
+              <span>Twitter</span>
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+              </svg>
+              </a>
+          </li>
+        </ul>
+      </nav>
+    </div><!-- end nav -->
+
+    <main class="px-16 py-6 bg-gray-100 bg-opacity-60 md:col-span-4">
+        <h2 class="titles w-full text-pu">Casey Petrosky</h2>
+        <h3 class="mt-2 text-2xl">•18 <br>
+          •poggers <br>
+          •crazy gamer <br></h3>
+      <div>
+        <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Youtube Uploads</h4>
+
+        <div class="mt-8 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+          <!-- Cards go here -->
+
+          <div class="card hover:shadow-lg">
+            <iframe src="https://www.youtube.com/embed/t1K6ucQfFI0" class="w-full h-32 sm:h-48 object-cover" allowfullscreen></iframe>
+            <div class="m-4">
+              <a href="https://www.youtube.com/watch?v=t1K6ucQfFI0" class="font-bold text-violet-600 hover:text-violet-700">
+                  CASPET FUNNY MOMENTS FT. TONY AKA DRIFT GOD AKA KEP69 AKA ILOVEFRANCE
+              </a>
+              <span class="block text-violet-600 text-sm">Nov 26, 2021</span>
+            </div>
+          </div>
+
+          <div class="card hover:shadow-lg">
+            <iframe src="https://www.youtube.com/embed/PfpQ2vR8f9M" class="w-full h-32 sm:h-48 object-cover"allowfullscreen></iframe>
+            <div class="m-4">
+              <a href="https://www.youtube.com/watch?v=PfpQ2vR8f9M" class="font-bold text-violet-600 hover:text-violet-700"> CYPHER GOD STEAM ROLLS THE COMPETITION</a>
+                <span class="block text-violet-600 text-sm">Jul 14, 2021</span>
+            </div>
+          </div>
+
+          <div class="card hover:shadow-lg">
+            <iframe src="https://www.youtube.com/embed/RiEah_R0MqM" class="w-full h-32 sm:h-48 object-cover"allowfullscreen></iframe>
+            <div class="m-4">
+              <a href="https://www.youtube.com/watch?v=RiEah_R0MqM" class="font-bold text-violet-600 hover:text-violet-700">HIGH TIER GAME PLAY WITH MEGA LAUGHS</a>
+                <span class="block text-violet-600 text-sm">Jan 31, 2021</span>
+            </div>
+          </div>
+
+        </div>
+
+        <h4 class="font-bold mt-12 pb-2  border-b border-gray-200"> Latest Tweets </h4>
+          <div class="mt-8">
+            <a class="twitter-timeline" data-lang="en" data-width="300" data-height="500" data-theme="dark" href="https://twitter.com/thecaspet?ref_src=twsrc%5Etfw">Tweets by thecaspet</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            
+          </div>
+
+        
+
+      </div>
+    </main>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
