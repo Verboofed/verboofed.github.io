@@ -686,7 +686,7 @@ body {
 }
 
 .paralax {
-  background-image: url("/docs/img/r34\ bg.jpg");
+  background-image: url("/docs/img/r34.jpg");
   /* Create the parallax scrolling effect */
   background-repeat: no-repeat;
   background-attachment: fixed;
