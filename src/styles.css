@@ -38,3 +38,9 @@ body {
 .listbackground {
   @apply bg-gray-100 bg-opacity-5;
 }
+#login {
+  display: none;
+}
+#loggedin {
+  display: none;
+}
