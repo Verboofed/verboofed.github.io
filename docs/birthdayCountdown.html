@@ -95,8 +95,9 @@
 
           <h3 class="mt-2 text-2xl text-violet-600" id="demo"></h3>
           <h3 class="mt-2 text-2xl text-violet-600 ">
-            Sicko Mode
+            Sicko Modes Until birthday
           </h3>
+          <h3 class="mt-2 text-2xl text-violet-600" id="demo2"></h3>
           <input type="image" src="https://caseypetrosky.com/sickomode.jpg" onclick="audio.pause()" ondblclick="audio.play()">
         </div>
           <script>
@@ -113,6 +114,8 @@
                 clearInterval(x);
                 document.getElementById("demo").innerHTML = "EXPIRED";
               }
+              var sickomodes = distance/1000/312;
+              document.getElementById("demo2").innerHTML= Math.trunc(sickomodes + 1) + " plays";
             }, 1000);
             var audio = new Audio("https://caseypetrosky.com/sickomode.mp3");
             audio.play();
