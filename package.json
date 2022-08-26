@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://caseypetrosky.com/",
+  "homepage": "https://caseypetrosky.com/",
   "name": "caseypetrosky",
   "version": "1.0.0",
   "description": "",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@statsfm/spotify.js": "^1.9.1",
     "autoprefixer": "^10.4.2",
     "git": "^0.1.5",
     "postcss": "^8.4.6"
