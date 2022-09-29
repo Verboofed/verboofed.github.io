@@ -20,7 +20,7 @@ div.header{
 
 .headerImg{
   object-fit: cover;
-  width: 50vh;
+  width: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
